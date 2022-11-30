@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FE Intensive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="itc-slider.css">
+    <script src="main.js" defer></script>
+    <script src="assets/itc-slider.js" defer></script>
+</head>
+<body>
+    <div class="app" id="app">
+        <header class="app__header header">
+            <div class="header__container container">
+                <a href="#app" class="header__logo">
+                    <img src="assets/logo.svg" alt="SYSTEM" width="190" height="32" class="header__logo-image">
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="#app" class="header__menu-link">Домой</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#features" class="header__menu-link">Особенности</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#benefits" class="header__menu-link">Преимущества</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="app__main">
+            <section class="hero" id="hero">
+                <div class="hero__container container">
+                    <div class="hero__content">
+                        <figure class="hero__figure">
+                            <img src="assets/hero-1.png" alt="Разработано 200+ приложений" class="hero__image">
+                        </figure>
+                        <div class="hero__text">
+                            <h1 class="hero__title">Разработано 2000+ приложений</h1>
+                            <div class="hero__subtitle">Для вашего удобства мы разработали множество приложений для вашего бизнеса и команды, которые доступны в любое время суток</div>
+                            <button class="hero__button">Присоединяйтесь</button>
+                        </div>
+                    </div>
+                    <div class="hero__dots">
+                        <span class="hero__dot active"></span>
+                        <span class="hero__dot"></span>
+                        <span class="hero__dot"></span>
+                    </div>
+                </div>
+            </section>
+            <section class="features" id="features">
+                <div class="features__container container">
+                    <div class="features__list">
+                        <div class="features__dots">
+                            <span class="features__dot active">Для бизнеса</span>
+                            <span class="features__dot">Для колл-центров</span>
+                            <span class="features__dot">Облачные хранилища</span>
+                            <span class="features__null"></span>
+                        </div>
+                        <div class="features__item">
+                            <p class="features__item-caption">Создаем кастомизированные программы и сервисы для развития управленческих команд в российских и международных компаниях</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="benefits" id="benefits">
+                <div class="benefits__container container">
+                    <h2 class="benefits__title">Преимущества</h2>
+                    <div class="benefits__list">
+                        <div class="benefits__item">
+                            <figure class="benefits__figure">
+                                <img src="assets/benefits-support.png" alt="Поддержка 24/7" width="400" height="317" class="benefits__image">
+                            </figure>
+                            <div class="benefits__item-content">
+                                <h3 class="benefits__item-title">Поддержка 24/7</h3>
+                                <p class="benefits__item-caption">Вы можете положиться на нашу круглосуточную поддержку, которая решит любой вопрос в течении часа</p>
+                            </div>
+                        </div>
+                        <div class="benefits__item">
+                            <figure class="benefits__figure">
+                                <img src="assets/benefits-warranty.png" alt="Гарантия возврата" width="400" height="317" class="benefits__image">
+                            </figure>
+                            <div class="benefits__item-content">
+                                <h3 class="benefits__item-title">Гарантия возврата</h3>
+                                <p class="benefits__item-caption">Если вам не понравится сервис, мы вернем вам полную стоимость в течении 30-дневного периода</p>
+                            </div>
+                        </div>
+                        <div class="benefits__item">
+                            <figure class="benefits__figure">
+                                <img src="assets/benefits-ease.png" alt="Удобство и простота" width="400" height="317" class="benefits__image">
+                            </figure>
+                            <div class="benefits__item-content">
+                                <h3 class="benefits__item-title">Удобство и простота</h3>
+                                <p class="benefits__item-caption">Все наши сервисы и приложения интуитивно понятны для пользователей всех уровней</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="app__footer footer">
+            <div class="footer__container container">
+                <div class="footer__copyright">
+                    2000-2022 © System
+                </div>
+                <div class="footer__socials">
+                    <div class="footer__socials-list">
+                        <div class="footer__socials-item">
+                            <a href="#" class="footer__socials-button"><img src="assets/socials-facebook.svg" alt="Facebook" class="footer__socials-image"></a>
+                        </div>
+                        <div class="footer__socials-item">
+                            <a href="#" class="footer__socials-button"><img src="assets/socials-twitter.svg" alt="Twitter" class="footer__socials-image"></a>
+                        </div>
+                        <div class="footer__socials-item">
+                            <a href="#" class="footer__socials-button"><img src="assets/socials-instagram.svg" alt="Instagram* (принадлежит Meta, запрещённой на территории Российской Федерации организации)" class="footer__socials-image"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
